@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title> Formulario para la uni </title>
+</head>
+
+<form action="DatosU.php" method="post">
+<body>
+<fieldset style= "width: 400px">
+    <legend> Datos de registro </legend>
+    <form action="#" method="post" target="_Self">
+        <label for="nombre"> Nombre(s):
+            <input type="text" name="nombre" placeholder="Ingrese su nombre" required>
+        </label>
+        <br><br>
+        <label for="apellido1"> Apellido Paterno:
+            <input type="text" name="Apellidop" placeholder="Ingrese apellido paterno"  required>
+        </label>
+        <br><br>
+        <label for="apellido 2"> Apellido Materno:
+            <input type="text" name="Apellidom" placeholder="Ingrese apellido materno" required>
+        </label>
+        <br><br>
+        <label for="sexo"> Sexo </label>
+        <select name="sexo">
+            <option value="Hombre"> Hombre </option>
+            <option value="Mujer"> Mujer </option>
+        </select>
+        <br><br>
+        <label for="edad"> Edad:
+            <input type="number" name="edad" min="16" max="100" placeholder="Ingres tu edad" required>
+        </label>
+        <br><br>
+        <label for="correo">
+            Correo electronico:<input type="email" name="Correo" placeholder="Ingrese correo" required>
+        </label>
+       <br><br>
+        <label for="Telefono"> Telefono:
+            <input type="number" name="Telefono" placeholder="Ingresa tu numero" required>
+        </label>
+        <br><br>
+        <label for="Celular"> Celular:
+            <input type="number" name="Celular" placeholder="Ingresa tu numero" required>
+        </label>
+        <br><br>
+       <label for="escuela"> Escuela de procedencia: </label><br>
+        <select name="escuela" required>
+            <option value="Escuela Nacional Preparatoria"> Escuela Nacional Preparatoria </option>
+            <option value="Colegio de Ciencias y Humanidades"> Colegio de Ciencias y Humanidades </option>
+            <option value="Instituto Politecnico Nacional"> Instituto Politecnico Nacional </option>
+        </select>
+        <br><br>
+        <label for="prom"> Promedio:
+            <input type="number" name="prom" min="0" max="10" placeholder="Ingresa promedio"  required>
+        </label>
+        <br><br>
+        <label for="p1"> Primera opcion:
+            <input type="text" name="p1" placeholder="Ingresa tu 1 opcion" required>
+        </label>
+        <br><br>
+        <label for="p2"> Segunda opcion:
+            <input type="text" name="p2" placeholder="Ingresa tu 2 opcion" required>
+        </label>
+        <br><br>
+        <button type="Submit">Enviar</button>
+        <button type="Reset">Reset</button>
+    </form>
+</fieldset>
+</body>
+</form>
+</html>

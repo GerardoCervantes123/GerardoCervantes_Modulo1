@@ -156,7 +156,7 @@
              //arraypush para rellenar el arreglo vacío
               
             //formulario
-            echo '<form action="./BatallaNaval.php" method="POST">';
+            echo '<form action="juegofinal.php" method="POST">';
             echo "<br><br>";
             echo "<label for='coordX'>";
                 echo "Coordenada en X (letra): <input type='text' name='coordX' required>";
